@@ -31,6 +31,7 @@ public class AppTest
     public static Test suite()
     {
         return new TestSuite( AppTest.class );
+       
     }
 
     /**
@@ -39,5 +40,11 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+    
+
+
+    private void assertTrue(boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
