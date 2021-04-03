@@ -24,6 +24,8 @@ public class AppTest
     {
         super( testName );
     }
+    
+  
 
     /**
      * @return the suite of tests being tested
@@ -40,11 +42,15 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+        
+        
     }
+     public void Test(){
+         return ;
+     }
     
 
 
-    private void assertTrue(boolean b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
 }
+
